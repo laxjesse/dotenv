@@ -1,0 +1,17 @@
+[oh-my-zsh]
+	hide-dirty = 1
+[core]
+	editor = code -w
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = "code --wait "
+[mergetool]
+	prompt = false
+	keepbackup = false
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff  "
+[difftool]
+	prompt = false
